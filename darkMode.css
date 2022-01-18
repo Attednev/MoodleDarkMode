@@ -14,6 +14,8 @@ a.impressum {
     text-decoration: none;
 }
 
+.formulation,
+.info,
 a.datenschutz:hover,
 a.impressum:hover {
     color: #ccc !important;
@@ -23,6 +25,7 @@ a:hover {
     border-bottom: 3px solid #ccc !important;
 }
 
+#action-menu-1-menu,
 td.cell,
 #region-main,
 #page-footer,
@@ -33,19 +36,28 @@ td.cell,
     background-color: #1c1c1c !important;
 }
 
-.col-12,
-#page.container-fluid {
-    background-color: #2d2d2d !important;
-}
-
 #action-menu-toggle-1 {
     border-bottom: 0 solid transparent !important;
 }
 
-#action-menu-1-menu {
-    background-color: #1c1c1c !important;
+.quizreviewsummary * {
+    background-color: transparent !important;
 }
 
+.outcome,
+.quizreviewsummary,
+.formulation,
+.info,
+.custom-select,
+.yui3-tabview-panel,
+input[type=button],
+select#filename,
+.form-control,
+.select,
+.list-group-item,
+.btn,
+.col-12,
+#page.container-fluid,
 .yui3-tab-focused,
 .yui3-tab-selected,
 .page-link {
@@ -65,13 +77,8 @@ td.cell,
 .yui3-tabview-selected {
     background-color: #ffffff !important;
 }
-.custom-select,
-.yui3-tabview-panel,
-input[type=button],
-select#filename,
-.form-control,
-.select,
-.list-group-item,
-.btn {
-    background-color: #2d2d2d !important;
+
+.moodle-dialogue-wrap,
+.moodle-dialogue-base {
+    background-color: #4c4c4c !important;
 }
